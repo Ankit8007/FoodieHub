@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "406741564847",
-    "project_id": "foodiehub-d471f",
-    "storage_bucket": "foodiehub-d471f.appspot.com"
+    "project_number": "",
+    "project_id": "",
+    "storage_bucket": ""
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:406741564847:android:e6fea9c94084db674d835a",
+        "mobilesdk_app_id": "",
         "android_client_info": {
           "package_name": "com.app.foodiehub"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCLsW3K1pOIDeBZ_ZAtydpRssMLgQvdcko"
+          "current_key": ""
         }
       ],
       "services": {
