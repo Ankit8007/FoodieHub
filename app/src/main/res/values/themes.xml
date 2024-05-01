@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"/>-->
+    <style name="Theme.FoodieHub" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+    <style name="AppFullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <!-- Customize BottomNavigationView style -->
+        <item name="bottomNavigationStyle">@style/BottomNavigationViewStyle</item>
+    </style>
+
+    <style name="BottomNavigationViewStyle" parent="Widget.Design.BottomNavigationView">
+        <!-- Customize BottomNavigationView background color -->
+        <item name="android:background">@color/teal_200</item>
+<!--        <item name="fontFamily">@font/poppins_light</item>-->
+        <item name="titleTextStyle">@style/txt_white_10_extraBold</item>
+    </style>
+
+    <style name="TextViewStyle" parent="@android:style/Widget.TextView">
+        <!-- Apply the default font -->
+        <item name="android:fontFamily">?android:attr/fontFamily</item>
+    </style>
+
+
+
+
+
+</resources>
+

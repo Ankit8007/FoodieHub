@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FoodieHub</string>
+    <string name="image">image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Home fragment</string>
+    <string name="cart_fragment">Cart fragment</string>
+    <string name="seacrh_fragment">Search fragment</string>
+    <string name="list_fragment">History fragment</string>
+    <string name="profile_fragment">Profile fragment</string>
+    <string name="currency">Rs. </string>
+</resources>

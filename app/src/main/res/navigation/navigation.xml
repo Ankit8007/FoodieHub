@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeTab">
+
+    <fragment
+        android:id="@+id/homeTab"
+        android:name="com.app.foodiehub.presentation.view.homeFragments.HomeTab"
+        android:label="fragment_home_tab"
+        tools:layout="@layout/fragment_home_tab" />
+    <fragment
+        android:id="@+id/cartTab"
+        android:name="com.app.foodiehub.presentation.view.homeFragments.CartTab"
+        android:label="fragment_cart_tab"
+        tools:layout="@layout/fragment_cart_tab" />
+    <fragment
+        android:id="@+id/searchTab"
+        android:name="com.app.foodiehub.presentation.view.homeFragments.SearchTab"
+        android:label="fragment_search_tab"
+        tools:layout="@layout/fragment_search_tab" />
+    <fragment
+        android:id="@+id/profileTab"
+        android:name="com.app.foodiehub.presentation.view.homeFragments.ProfileTab"
+        android:label="fragment_profile_tab"
+        tools:layout="@layout/fragment_profile_tab" />
+</navigation>
