@@ -20,7 +20,7 @@ FoodieHub is a restaurant food app for Android devices. It provides users with a
 ## Download APP
 You can download the latest version of the FoodieHub app from the following link:
 
-[FoodieHub APK](https://drive.google.com/file/d/1g69n-5Jcf2FBWXm60vrJxl5X5LJmGLNj/view?usp=sharing)
+[FoodieHub APK](https://drive.google.com/file/d/1VcUVzwX1rnrsjxrqBAhUF6cU9sMsekNk/view)
 
 ## Screenshots
 <img src="readMeAsset/splash.jpg" width="240em" height="480em" ><img src="readMeAsset/login.jpg" width="240em" height="480em" ><img src="readMeAsset/signup.jpg" width="240em" height="480em" ><img src="readMeAsset/home.jpg" width="240em" height="480em" ><img src="readMeAsset/search.jpg" width="240em" height="480em" ><img src="readMeAsset/detail.jpg" width="240em" height="480em" ><img src="readMeAsset/cart.jpg" width="240em" height="480em" ><img src="readMeAsset/order.jpg" width="240em" height="480em" ><img src="readMeAsset/profile.jpg" width="240em" height="480em" >
