@@ -12,21 +12,22 @@ import com.bumptech.glide.Glide
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
-
+val pattern = Regex("^\\d{6,14}$")
+val passwordPattern = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{8,}$".toRegex()
 fun String.isEmailValid(): Boolean {
     return !TextUtils.isEmpty(this) && Patterns.EMAIL_ADDRESS.matcher(this).matches()
 }
 
 fun String.isPasswordValid(): Boolean {
-    return true
+    return !TextUtils.isEmpty(this) && passwordPattern.matches(this)
 }
 
 fun String.isNameValid(): Boolean {
-    return true
+    return !TextUtils.isEmpty(this)
 }
 
 fun String.isPhoneValid(): Boolean {
-    return true
+    return !TextUtils.isEmpty(this) && pattern.matches(this)
 }
 
 fun Context.toast(msg: String): Unit {

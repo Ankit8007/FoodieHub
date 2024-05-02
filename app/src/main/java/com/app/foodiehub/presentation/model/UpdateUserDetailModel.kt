@@ -1,5 +1,7 @@
 package com.app.foodiehub.presentation.model
 
+import com.app.foodiehub.utils.isNameValid
+import com.app.foodiehub.utils.isPhoneValid
 import com.app.foodiehub.utils.serializeToMap
 import com.google.gson.annotations.SerializedName
 
@@ -20,10 +22,10 @@ class UpdateUserDetailModel (
     }
 
     override fun validName(): Boolean {
-        return  true
+        return  name.isNameValid()
     }
 
     override fun validPhoneNo(): Boolean {
-        return  true
+        return  phone.isPhoneValid()
     }
 }

@@ -55,7 +55,7 @@ class SignupActivity : AppCompatActivity() {
 
             is BaseResponse.Success -> {
                 stopLoading()
-                this.toast("Login Success")
+                this.toast("Registered Successfully")
             }
 
             is BaseResponse.FormValidationError -> {
